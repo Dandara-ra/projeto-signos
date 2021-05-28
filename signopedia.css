@@ -1,0 +1,77 @@
+:root{
+    --azul: #B6FEFB;
+    --lilas:#470673;
+    --rosa:#F06DF2;
+    --preto:black;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: var(--preto);
+    font-family: Arial, Helvetica, sans-serif;
+    color:var(--rosa);
+
+}
+
+/*CSS PARA O TOP*/
+header .top{
+    text-align: center;
+    justify-content: center;
+    
+}
+
+header .logo{
+    font-size: 30px;
+    
+}
+
+h2#sub{
+    font-size: 18px;
+}
+
+/*CSS PARA O MID*/
+
+main .signos{
+    margin-top: 30px;
+    background-image: url(imagens/fundo.jpg);
+    background-size: 100%;
+    display: flex;
+    flex-direction: column;/*colocando em coluna*/
+    align-items: center;
+}
+
+main .descricao-planeta{
+    margin-top: 200px;
+    border-style: groove;
+    border-color: var(--lilas);
+    border-width: 10px;
+    background-color: var(--verde-agua);
+    color: var(--azul);
+    flex-direction: column;/*colocando em coluna*/
+   
+   
+    
+    
+}
+
+main .img{
+    height: 200px;
+}
+
+main .img2{
+height: 300px;
+}
+
+main .txt{
+    display: inline-block;
+    
+
+}
+
+
+
