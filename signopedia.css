@@ -29,6 +29,9 @@ header .logo{
     font-size: 30px;
     
 }
+h1{
+    margin-top: 20px;
+}
 
 h2#sub{
     font-size: 18px;
@@ -38,22 +41,23 @@ h2#sub{
 
 main .signos{
     margin-top: 30px;
-    background-image: url(imagens/fundo.jpg);
-    background-size: 100%;
+    background-image: url(imagens/fundo\ 2.jpg);
+    background-size: cover;
     display: flex;
     flex-direction: column;/*colocando em coluna*/
     align-items: center;
 }
 
 main .descricao-planeta{
-    margin-top: 200px;
+    margin-top: 150px;
     border-style: groove;
     border-color: var(--lilas);
     border-width: 10px;
     background-color: var(--verde-agua);
     color: var(--azul);
-    flex-direction: column;/*colocando em coluna*/
-   
+    justify-content: center;
+    display: flex;
+   margin-bottom: 20px;
    
     
     
@@ -61,16 +65,40 @@ main .descricao-planeta{
 
 main .img{
     height: 200px;
+    margin: 10px;
 }
 
 main .img2{
-height: 300px;
+height: 250px;
 }
 
-main .txt{
-    display: inline-block;
+main .botão{
+    margin-top: 10px;
+    margin-right: 10px;
+    text-align: right;
     
+}
 
+input{
+    font-size: 20px;
+    color: var(--rosa);
+    background-color: var(--lilas);
+}
+
+
+
+footer{
+    margin-top: 20px;
+    text-align: center;
+}
+
+img#imginsta{
+    width: 30px;
+}
+
+a{
+    font-size: 20px;
+    
 }
 
 
